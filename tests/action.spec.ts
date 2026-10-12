@@ -69,7 +69,7 @@ test("To user checkbox",async({page})=>{
 });
 
 
-test.only("To use dropdown using select",async({page})=>{
+test("To use dropdown using select",async({page})=>{
 
     await page.goto("https://testautomationpractice.blogspot.com/");
     //dropdown -selectoption
